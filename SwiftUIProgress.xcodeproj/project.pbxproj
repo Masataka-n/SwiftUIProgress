@@ -13,6 +13,10 @@
 		F02D89F4258C90EB0060F4EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F02D89F3258C90EB0060F4EA /* Preview Assets.xcassets */; };
 		F02D89FF258C90EC0060F4EA /* SwiftUIProgressTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02D89FE258C90EC0060F4EA /* SwiftUIProgressTests.swift */; };
 		F02D8A0A258C90EC0060F4EA /* SwiftUIProgressUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02D8A09258C90EC0060F4EA /* SwiftUIProgressUITests.swift */; };
+		F02D8A1B258C91300060F4EA /* SquareProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02D8A1A258C91300060F4EA /* SquareProgressView.swift */; };
+		F02D8A20258C916E0060F4EA /* PieShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02D8A1F258C916E0060F4EA /* PieShape.swift */; };
+		F02D8A25258C919F0060F4EA /* RingProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02D8A24258C919F0060F4EA /* RingProgressView.swift */; };
+		F02D8A2A258C91E00060F4EA /* PieProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02D8A29258C91E00060F4EA /* PieProgressView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,10 @@
 		F02D8A05258C90EC0060F4EA /* SwiftUIProgressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIProgressUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F02D8A09258C90EC0060F4EA /* SwiftUIProgressUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIProgressUITests.swift; sourceTree = "<group>"; };
 		F02D8A0B258C90EC0060F4EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F02D8A1A258C91300060F4EA /* SquareProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareProgressView.swift; sourceTree = "<group>"; };
+		F02D8A1F258C916E0060F4EA /* PieShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieShape.swift; sourceTree = "<group>"; };
+		F02D8A24258C919F0060F4EA /* RingProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingProgressView.swift; sourceTree = "<group>"; };
+		F02D8A29258C91E00060F4EA /* PieProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieProgressView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +108,10 @@
 				F02D89F0258C90EB0060F4EA /* Assets.xcassets */,
 				F02D89F5258C90EB0060F4EA /* Info.plist */,
 				F02D89F2258C90EB0060F4EA /* Preview Content */,
+				F02D8A1A258C91300060F4EA /* SquareProgressView.swift */,
+				F02D8A1F258C916E0060F4EA /* PieShape.swift */,
+				F02D8A24258C919F0060F4EA /* RingProgressView.swift */,
+				F02D8A29258C91E00060F4EA /* PieProgressView.swift */,
 			);
 			path = SwiftUIProgress;
 			sourceTree = "<group>";
@@ -259,7 +271,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F02D8A2A258C91E00060F4EA /* PieProgressView.swift in Sources */,
+				F02D8A20258C916E0060F4EA /* PieShape.swift in Sources */,
+				F02D8A25258C919F0060F4EA /* RingProgressView.swift in Sources */,
 				F02D89EF258C90D70060F4EA /* ContentView.swift in Sources */,
+				F02D8A1B258C91300060F4EA /* SquareProgressView.swift in Sources */,
 				F02D89ED258C90D70060F4EA /* SwiftUIProgressApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
